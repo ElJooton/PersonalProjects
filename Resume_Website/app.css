@@ -1,0 +1,47 @@
+:root {
+    --background-color: white;
+    --text-color: #222;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body.dark-mode {
+    --background-color: #222;
+    --text-color: white;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px;
+}
